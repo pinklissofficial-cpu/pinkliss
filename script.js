@@ -39,10 +39,6 @@ category:"Lipstick",
 price:285,
 desc:"",
 icon:""
-}
-];
-  };
-});
 
 const STORAGE_KEYS = {
   cart: "pl_cart",
