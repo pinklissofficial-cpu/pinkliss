@@ -1,7 +1,4 @@
-`document.addEventListener('DOMContentLoaded', () => { const btn = document.querySelector('.nav-toggle'); const nav = document.get ElementBy Id('primary-nav');
-if (!btn || !nav) return; btn.addEventListener('click', () => { const isOpen = btn.getAttribute('aria-expanded') === 'true'; btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true'); nav.classList.toggle('open'); }) });
-document.addEventListener("DOMContentLoaded", () => {
-  const PRODUCTS = {
+const PRODUCTS = {
     "Strawberry 🍓 Pink Lipstick": { name: "Strawberry 🍓 Pink Lipstick", price: 265 },
     "Unbox the Glow": { name: "Unbox the Glow", price: 499 },
     "Glow Starts in the Shower ✨🩷": { name: "Glow Starts in the Shower ✨🩷", price: 365 },
