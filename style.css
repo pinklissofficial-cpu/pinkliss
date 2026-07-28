@@ -674,4 +674,9 @@ textarea {
     align-items: flex-start;
   }
 }
-at media (max-width:768px) { .primary-nav { display: none; } .primary-nav.open { display grid; } }
+
+@media (max-width: 520px) {
+  .container {
+    width: min(100% - 1.2rem, var(--container));
+  }
+  
